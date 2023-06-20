@@ -40,6 +40,15 @@ p,h1,h2,h3,h4,h5,h6{
    text-decoration: none;
 
 }
+.nav__link_our{
+  text-align: left;
+  text-decoration: none;
+  color:black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 30px;
+}
+
 .container{
     width: 100%;
     max-width: 1200px;
@@ -197,6 +206,16 @@ section {
     padding-right: 40px;
     margin-left: 0;
   }
+  .nav__link_our{
+    text-align: left;
+    text-decoration: none;
+    color:black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 30px;
+
+  }
+
 
   .header__logo {
     font-size: 40px;
@@ -236,6 +255,16 @@ section {
     padding-left: 60px;
     margin-left: 0;
   }
+  .nav__link_our{
+    text-align: left;
+    text-decoration: none;
+    color:black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 30px;
+
+  }
+
 
   .header__logo {
     font-size: 35px;
