@@ -3,6 +3,11 @@ body{
         margin: 0;
     line-height: 1.2  ;
 }
+* {
+  text-decoration: none;
+  color: black;
+}
+
 *,
 *:before,
 *:after{
@@ -145,6 +150,7 @@ section {
 .object_image{
     width: 300px;
     height:auto;
+    border-radius: 20px;
 }
 .object_price{
     padding-left: 11px;
