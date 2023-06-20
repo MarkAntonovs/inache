@@ -41,7 +41,6 @@ p,h1,h2,h3,h4,h5,h6{
 
 }
 .nav__link_our{
-  text-align: left;
   text-decoration: none;
   color:black;
   margin-top: 10px;
@@ -207,7 +206,6 @@ section {
     margin-left: 0;
   }
   .nav__link_our{
-    text-align: left;
     text-decoration: none;
     color:black;
     margin-top: 10px;
