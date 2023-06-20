@@ -40,9 +40,7 @@ body {
   overflow: hidden;
 
 }
-.slider__item {
-  padding: 0px 15px;
-}
+
 
 .slider__item {
   max-width: 100%;
