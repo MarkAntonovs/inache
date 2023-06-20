@@ -52,6 +52,23 @@ p,h1,h2,h3,h4,h5,h6{
   margin-bottom: 10px;
   margin-right: 30px;
 }
+.header_languages {
+  display: flex;
+  align-items: center;
+}
+
+.language_link {
+  margin-right: 10px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.language_link:last-child {
+  margin-right: 0;
+}
+
 
 .container{
     width: 100%;
@@ -99,7 +116,7 @@ section {
   
   .section__description {
    
-  
+  text-align: justify;
     width: 900px;
     height: 100px;
 
@@ -304,6 +321,7 @@ section {
     font-size: 14px;
     display: flex;
     flex-direction: column;
+    padding-left: 30px;
   }
   .nav__link_our{
     text-align: left;
@@ -354,9 +372,7 @@ section {
     line-height: 28px;
     padding-right: 50px;
   }
-  .object_text_p{
-    text-align: justify;
-  }
+  
 
   .object_image {
     width: 100%;
@@ -368,7 +384,7 @@ section {
   }
 
   .divfordate {
-    margin-left: 95px;
+    margin-left: 105px;
     justify-content: center;
     width: 80px;
     height: 18px;
@@ -395,4 +411,13 @@ section {
   .infospace_adress {
     text-align: center;
   }
+  .header_languages {
+   display: flex;
+   flex-direction: column;
+   padding-right: 30px;
+  }
+
+
+  
+
 }

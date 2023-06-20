@@ -6,12 +6,30 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #F6F5F1;
   }
   .container{
     width: 100%;
     max-width: 1200px;
     margin:0 auto;
 }
+.header_languages {
+  display: flex;
+  align-items: center;
+}
+
+.language_link {
+  margin-right: 10px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.language_link:last-child {
+  margin-right: 0;
+}
+
   .header{
     padding-left: 100px;
     padding-top: 30px;
@@ -21,12 +39,13 @@ body {
 .header__logo{
     font-family: 'Anton', sans-serif;
     font-size: 50px;
+    padding-left: 60px;
 
 }
 .header__inner{
    
     display: flex;
-    justify-content: space-between;
+  
     align-items: center;
 }
 .nav__links{
