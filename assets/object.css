@@ -63,6 +63,9 @@ body {
     font-size: 25px;
     
  }
+ .object_price{
+    font-weight: 700;
+ }
   .slider {
     width: 1100px;
   height: 750px;
@@ -96,5 +99,51 @@ body {
 .slick-next {
   right: 10px;
 }
+.phone_number{
+    font-weight: 700;
+}
 
+  
+
+@media screen and (max-width: 1200px) {
+    .container {
+      max-width: 992px;
+    }
+  }
+  
+  @media screen and (max-width: 992px) {
+    .container {
+      max-width: 576px;
+    }
+  
+    .header {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  
+    .object_block {
+      flex-direction: column;
+      margin-bottom: 50px;
+    }
+  
+    .slider,
+    .slider img {
+      width: 90%;
+      height: auto;
+      margin: 10px ;
+      border-radius: 10px;
+    }
+  
+    .object_desc {
+      padding-left: 20px;
+    }
+  
+    .object_desc_title {
+      font-size: 40px;
+    }
+  
+    .object_desc_block {
+      font-size: 20px;
+    }
+  }
   
