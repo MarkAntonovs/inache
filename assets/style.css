@@ -1,6 +1,6 @@
 body{
     font-family: 'Roboto', sans-serif;
-        margin: 0;
+    margin: 0;
     line-height: 1.2  ;
     background-color: #F6F5F1;
 }
@@ -130,6 +130,7 @@ section {
  
  
   .objects_header{
+    margin-top: 50px;
     padding-bottom: 30px;
     position: relative;
   }
@@ -217,13 +218,6 @@ section {
     margin-bottom: 150px;
   }
 
-
-
-
-
-  /* Media queries for different screen sizes */
-
-/* Large desktop screens */
 @media (max-width: 1200px) {
   .header {
     padding-left: 80px;
@@ -272,7 +266,7 @@ section {
   }
 }
 
-/* Laptop and tablet screens */
+
 @media (max-width: 992px) {
   .header {
     padding-left: 60px;
@@ -323,6 +317,7 @@ section {
 
   }
   
+  
 
   .nav__links {
     font-size: 10px;
@@ -349,7 +344,7 @@ section {
     padding-right: 55px;
     font-size: 18px;
     line-height: 28px;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
     text-align: justify; /* Center the text */
   }
 
