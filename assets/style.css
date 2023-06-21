@@ -26,6 +26,7 @@ p,h1,h2,h3,h4,h5,h6{
 .header__logo{
     font-family: 'Anton', sans-serif;
     font-size: 50px;
+    text-align: center;
 
 }
 .header__inner{
@@ -315,14 +316,16 @@ section {
   }
 
   .header__logo {
-    font-size: 20px;
+    font-size: 19px;
     display: flex;
-   
+   flex-direction: column;
+   text-align: center;
+
   }
   
 
   .nav__links {
-    font-size: 14px;
+    font-size: 10px;
     display: flex;
     flex-direction: column;
     padding-left: 30px;
@@ -416,9 +419,13 @@ section {
     text-align: center;
   }
   .header_languages {
+    
    display: flex;
    flex-direction: column;
    padding-right: 30px;
+  }
+  .language_link{
+    font-size: 10px;
   }
 
 
