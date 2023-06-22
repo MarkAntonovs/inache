@@ -1,104 +1,108 @@
-body{
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    line-height: 1.2  ;
-    background-color: #F6F5F1;
+/* Общие стили */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.2  ;
+
 }
-* {
+*{
   text-decoration: none;
-  color: black;
+  color :black;
 }
 
-*,
-*:before,
-*:after{
-    box-sizing: border-box;
-}
 p,h1,h2,h3,h4,h5,h6{
     margin: 0;
 }
-.header{
-    padding-left: 100px;
-    padding-top: 30px;
-    padding-right: 60px;
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
 }
-  .container{
-    width: 100%;
-    max-width: 1150px;
-    margin:0 auto;
-}
-.header{
-  padding-left: 100px;
-  padding-top: 30px;
-  padding-right: 60px;
 
-}
-.header__logo{
-  font-family: 'Anton', sans-serif;
-  font-size: 50px;
-  text-align: left;
+/* Шапка */
+.header {
 
+  color: #fff;
+  padding: 10px;
 }
-.header__inner{
- 
+
+.header__inner {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+.header__logo_div {
+  text-align: left;
+}
+
+.header__logo {
+  font-family: 'Anton', sans-serif;
+  font-size: 50px;
+
+}
+
 .header_languages {
-display: flex;
-align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .language_link {
-margin-right: 10px;
-text-decoration: none;
-color: black;
-font-weight: bold;
-font-size: 16px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 16px;}
+
+/* Слайдер */
+.slider {
+  margin-bottom: 20px;
+  border-radius: 20px;
+
 }
 
-.language_link:last-child {
-margin-right: 0;
+.slider__item img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+
 }
 
-.object_desc{
-    padding-left: 30px;
-}
- .object_block{
-    display: flex;
-    flex-direction: row;
-    margin-top: 10px;
- }
- .object_desc_title{
-    font-size: 60px;
- }
- .object_desc_block{
-    font-size: 25px;
-    
- }
- .object_price{
-    font-weight: 700;
- }
-  .slider {
-    width: 1200px;
-  height: 750px;
-  margin: 30px;
-position: relative;
-}
-  
+/* Описание объекта */
+.object_desc {
 
-  .slider img {
-    width: 1200px;
-    height: 750px;
-    border-radius: 20px;
-  }
-.phone_number{
-    font-weight: 700;
-    margin-bottom: 100px;
+  background-color: #F6F5F1;
+  padding: 20px;
+  border-radius: 20px;
 }
+
+.object_desc_title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+  margin-left: 10px;
+}
+p{
+  margin-top: 10px;
+}
+
+.object_desc_block {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+}
+.object_desc_infoblock{
+  margin-top: 50px;
+}
+
+
+.object_desc_block{
+  margin-left: 10px;
+}
+
 .prev,
 .next {
   position: absolute;
@@ -125,7 +129,9 @@ position: relative;
   right:10px;
   content: '▶'; /* Заменено на символ стрелки */
 }
-  
+   
+
+
 
 @media screen and (max-width: 1200px) {
     .container {
@@ -133,51 +139,10 @@ position: relative;
     }
   }
   
-  @media screen and (max-width: 992px) {
-    .container {
-      max-width: 576px;
+  @media screen and (max-width: 1000px) {
+    .slider{
+      width: 100%;
     }
-  
-    .header {
-      padding-left: 20px;
-      padding-right: 20px;
-    }
-  
-    .object_block {
-      flex-direction: column;
-      margin-bottom: 50px;
-    }
-  
-    .slider,
-    .slider img {
-      width: 90%;
-      height: auto;
-      margin: 10px ;
-      border-radius: 10px;
-    }
-  
-    .object_desc {
-      padding-left: 20px;
-    }
-  
-    .object_desc_title {
-      font-size: 40px;
-    }
-  
-    .object_desc_block {
-      font-size: 20px;
-    }
-    .header__logo {
-      font-size: 30px;
-      display: flex;
-      align-items:baseline;
-    }
-    .real-estate {
-      margin-left: -52px;
-    }
-  
-  }
-  @media screen and (max-width: 476px) {
     .prev,
     .next {
       width: 30px;
@@ -186,8 +151,19 @@ position: relative;
       font-size: 12px;
       border-radius: 10px;
     }
+   
+  }
+  @media screen and (max-width: 476px) {
+    .slider{
+      width: 100%;
+    }
+    .prev,
     .next {
-      margin-right: 14px;
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+      font-size: 12px;
+      border-radius: 10px;
     }
   }
   
