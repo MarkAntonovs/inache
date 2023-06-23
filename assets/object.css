@@ -94,9 +94,6 @@ p{
   line-height: 1.6;
   color: #555;
 }
-.object_desc_infoblock{
-  margin-top: 50px;
-}
 
 
 .object_desc_block{
@@ -129,7 +126,13 @@ p{
   right:10px;
   content: '▶'; /* Заменено на символ стрелки */
 }
-   
+.seperator{
+  border: 1px solid #E0E0E0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 550px;
+
+}
 
 
 
@@ -151,6 +154,14 @@ p{
       font-size: 12px;
       border-radius: 10px;
     }
+    .seperator{
+      border: 1px solid #E0E0E0;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      width: 550px;
+    
+    }
+    
    
   }
   @media screen and (max-width: 476px) {
@@ -165,5 +176,13 @@ p{
       font-size: 12px;
       border-radius: 10px;
     }
+    .seperator{
+      border: 1px solid #E0E0E0;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      width: 300px;
+    
+    }
+    
   }
   
