@@ -21,6 +21,7 @@ p,h1,h2,h3,h4,h5,h6{
     padding-left: 90px;
     padding-top: 20px;
     padding-right: 60px;
+    margin-bottom: 120px;
 
 }
 .header__logo{
@@ -57,12 +58,15 @@ p,h1,h2,h3,h4,h5,h6{
 
 .container{
     width: 100%;
-    max-width: 1200px;
+    max-width: 1000px;
     margin:0 auto;
+}
+.section_about{
+margin-bottom: 60px;
 }
 
 section {
-    margin-top: 250px;
+    margin-top: 30px;
     position: relative;
   }
   
@@ -108,7 +112,7 @@ padding-left: 100px;
  }
  
   .objects_header{
-    margin-top: 50px;
+    
     padding-bottom: 30px;
     position: relative;
   }
@@ -177,7 +181,6 @@ padding-left: 100px;
   }
   .contacts {
     background-color: #F6F5F1;
-    padding: 60px 0;
     text-align: left;
   }
   
