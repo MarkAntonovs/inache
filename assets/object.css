@@ -1,0 +1,190 @@
+/* Общие стили */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.2  ;
+  
+
+}
+*{
+  text-decoration: none;
+  color :black;
+}
+
+p,h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+
+.container {
+  max-width: 1000px;
+  
+  margin: 0 auto;
+  padding: 10px;
+}
+
+/* Шапка */
+.header {
+
+  color: #fff;
+  padding: 10px;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo_div {
+  text-align: left;
+}
+
+.header__logo {
+  font-family: 'Anton', sans-serif;
+  font-size: 50px;
+
+}
+
+.header_languages {
+  display: flex;
+  align-items: center;
+}
+
+.language_link {
+  margin-right: 10px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 16px;}
+
+/* Слайдер */
+.slider {
+  margin-bottom: 20px;
+  border-radius: 20px;
+
+}
+
+.slider__item img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+
+}
+
+/* Описание объекта */
+.object_desc {
+
+  background-color: #F6F5F1;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.object_desc_title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+  margin-left: 10px;
+}
+p{
+  margin-top: 10px;
+}
+
+.object_desc_block {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+}
+
+
+.object_desc_block{
+  margin-left: 10px;
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+  border-radius: 15px;
+ 
+}
+
+.prev {
+  left: 10px;
+  z-index: 10000;
+  content: '◀'; /* Заменено на символ стрелки */
+}
+
+.next {
+  right:10px;
+  content: '▶'; /* Заменено на символ стрелки */
+}
+.seperator{
+  border: 1px solid #E0E0E0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 550px;
+
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .container {
+      max-width: 800px;
+    }
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .slider{
+      width: 100%;
+    }
+    .prev,
+    .next {
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+      font-size: 12px;
+      border-radius: 10px;
+    }
+    .seperator{
+      border: 1px solid #E0E0E0;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      width: 550px;
+    
+    }
+    
+   
+  }
+  @media screen and (max-width: 476px) {
+    .slider{
+      width: 100%;
+    }
+    .prev,
+    .next {
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+      font-size: 12px;
+      border-radius: 10px;
+    }
+    .seperator{
+      border: 1px solid #E0E0E0;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      width: 300px;
+    
+    }
+    
+  }
+  
